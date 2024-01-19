@@ -7,7 +7,7 @@ const Button = ({ color, text ,})=>{
     return(
     <button  onClick={onClick} 
     style={{background:color }}
-    class='btn'>{text}</button>
+    className='btn'>{text}</button>
     )
 }
 Button.propTypes={

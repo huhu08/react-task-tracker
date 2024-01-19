@@ -1,13 +1,15 @@
 
-import { useState } from "react"
 import Task from "./Task"
-const Tasks=()=>{
+const Tasks=({ tasks })=>{
  return(
-<div className="task">
-    {Tasks.map((task)=>
-    <Task key={task.id} task={task.text}/>)}
+<>
+    {tasks.map((task)=> (
 
-</div>
+        // <h3 key={task.id}>{task.text}</h3>
+     <Task key={task.id} task={task.text}/>
+    ))}
+
+</>
  )
 
 }

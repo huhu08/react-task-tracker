@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import Button from './Button'
-import Tasks from './tasks'
+import Tasks from './Tasks'
 
 const Header = ({name})=>{
 return (
